@@ -1,5 +1,7 @@
 package org.algo.linkedlist.ch2;
 
+import java.util.HashSet;
+
 class ListNode {
     int val;
     ListNode next;
@@ -12,5 +14,17 @@ class ListNode {
     public ListNode(int val, ListNode next) {
         this.val = val;
         this.next = next;
+    }
+}
+
+class Demo {
+    public static void test(String[] args) {
+        HashSet<Integer> set = new HashSet<>();
+        for (int i = 0; i < 10; i++) {
+            set.add(i);
+        }
+        for (Integer i : set) {
+            
+        }
     }
 }
